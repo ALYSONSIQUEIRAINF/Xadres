@@ -7,10 +7,12 @@ namespace Xadres
     {
         static void Main(string[] args)
         {
-            Tabuleiro t = new Tabuleiro(8,8);
-            Posicao p = new Posicao(3,4);
-            Console.WriteLine(p);
-            Console.WriteLine("");
+            Tabuleiro tab = new Tabuleiro(8,8);
+
+            Tela.Tela.ImprimirTabuleiro(tab);
+
+            Console.WriteLine();
+
 
         }
     }
