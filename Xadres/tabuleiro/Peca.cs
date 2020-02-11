@@ -1,4 +1,4 @@
-﻿using Xadres.tabuleiro;
+﻿using tabuleiro;
 
 namespace tabuleiro
 {
@@ -9,9 +9,9 @@ namespace tabuleiro
         public int QtdeMovimentos { get; protected set; }
         public Tabuleiro Tabuleiro { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, int qtdeMovimentos, Tabuleiro tabuleiro)
+        public Peca(Tabuleiro tabuleiro, Cor cor)
         {
-            Posicao = posicao;
+            Posicao = null;
             Cor = cor;
             QtdeMovimentos = 0;
             Tabuleiro = tabuleiro;

@@ -10,13 +10,13 @@ namespace Tela
             {               
                 for (int j = 0; j < tabuleiro.Colunas; j++)
                 {
-                    if (tabuleiro.peca(i, j) == null)
+                    if (tabuleiro.Peca(i, j) == null)
                     {
                         System.Console.Write("- ");
                     }
                     else
                     {
-                        System.Console.Write(tabuleiro.peca(i, j) + " ");
+                        System.Console.Write(tabuleiro.Peca(i, j) + " ");
                     }
 
                 }

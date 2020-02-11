@@ -1,4 +1,4 @@
-﻿namespace Xadres.tabuleiro
+﻿namespace tabuleiro
 {
     enum Cor
     {
